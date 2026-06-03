@@ -4,7 +4,7 @@
 
 <h2>1. How long did you spend on the coding test?</h2>
 
-I spent approximately **4 days** on this assignment, dedicating around **4–5 hours each day**, completing it step by step:
+I spent approximately **3 days** on this assignment, dedicating around **4–5 hours each day**, completing it step by step:
 
 <ul>
   <li>Database design and setup</li>
