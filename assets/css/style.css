@@ -1,0 +1,303 @@
+body{
+    background:#0c3554;
+    font-family: Arial, sans-serif;
+}
+
+.action-section{
+    padding:0px 0px 30px 0px;
+}
+
+.heading-area{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.heading-area h1{
+    color:#fff;
+    font-size:45px;
+    font-weight:300;
+    margin-bottom:20px;
+}
+
+.heading-area p{
+    color:#d7d7d7;
+    font-size:24px;
+}
+
+.main-box{
+    background:#ececec;
+}
+
+.left-tabs{
+    background:#ececec;
+    padding:40px 20px;
+}
+
+.tab-item{
+    background:#fff;
+    padding:30px;
+    margin-bottom:20px;
+    cursor:pointer;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    font-size:28px;
+    font-weight:600;
+}
+
+.tab-item.active{
+    position:relative;
+}
+
+.tab-item.active:after{
+    content:'';
+    position:absolute;
+    right:-14px;
+    top:50%;
+    transform:translateY(-50%);
+    border-top:14px solid transparent;
+    border-bottom:14px solid transparent;
+    border-left:14px solid #fff;
+}
+
+.content-box{
+    background:#71bfd4;
+    color:#fff;
+    text-align:center;
+    min-height:540px;
+    padding:80px 40px;
+}
+
+.label{
+    display:inline-block;
+    background:rgba(0,0,0,0.15);
+    padding:8px 15px;
+    font-size:12px;
+    margin-bottom:30px;
+}
+
+.content-box h2{
+    font-size:32px;
+    line-height:1.3;
+    margin-bottom:40px;
+}
+
+.learn-btn{
+    color:#fff;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:600;
+}
+
+.main-image{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+}
+.tab-content{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.tab-icon{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
+
+.tab-title{
+    font-size:22px;
+    font-weight:600;
+}
+.tab-content{
+    display:flex;
+    align-items:center;
+    width:100%;
+}
+
+.tab-icon{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
+
+.tab-title{
+    margin-left:15px;
+    font-weight:600;
+}
+
+.toggle-icon{
+    width:24px;
+    height:24px;
+    margin-left:auto;
+}
+@media(max-width:991px){
+
+     .image-slide{
+        display:none;
+    }
+
+    .image-slide:first-child{
+        display:block;
+    }
+
+
+.main-image{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+    .content-box{
+        min-height:auto;
+        padding:40px 20px;
+    }
+
+    .content-box h2{
+        font-size:32px;
+    }
+
+    .tab-item{
+        font-size:22px;
+    }
+
+    .heading-area h1{
+        font-size:40px;
+    }
+
+    .heading-area p{
+        font-size:18px;
+    }
+.content-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.content-box::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(113,191,212,0.75);
+    z-index:1;
+}
+
+.content-box .label,
+.content-box h2,
+.content-box .learn-btn{
+    position:relative;
+    z-index:2;
+}
+.mobile-bg-image{
+    display:none;
+}
+}
+
+
+/* mobile css */
+
+/* MOBILE VERSION */
+
+.mobile-version{
+    display:none;
+}
+
+@media(max-width:991px){
+
+    /* Hide desktop layout */
+    .main-box{
+        display:none;
+    }
+
+    /* Show mobile layout */
+    .mobile-version{
+        display:block;
+        background:#ececec;
+        padding:15px;
+    }
+
+    .mobile-slide{
+        margin-bottom:15px;
+    }
+
+    .mobile-header{
+        background:#fff;
+        padding:20px;
+        display:flex;
+        align-items:center;
+        cursor:pointer;
+        box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .mobile-icon{
+        width:35px;
+        height:35px;
+        object-fit:contain;
+        margin-right:15px;
+    }
+
+    .mobile-header span{
+        flex:1;
+        font-size:22px;
+        font-weight:600;
+    }
+
+    .mobile-toggle{
+        width:20px;
+        height:20px;
+    }
+
+    .mobile-content{
+        position:relative;
+        overflow:hidden;
+    }
+
+    .mobile-bg{
+        width:100%;
+        height:400px;
+        object-fit:cover;
+        display:block;
+    }
+
+    .mobile-overlay{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+
+        background:rgba(113,191,212,0.75);
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+
+        text-align:center;
+        color:#fff;
+
+        padding:20px;
+    }
+
+    .mobile-label{
+        display:inline-block;
+        background:rgba(0,0,0,0.15);
+        padding:8px 15px;
+        font-size:12px;
+        margin-bottom:20px;
+    }
+
+    .mobile-overlay h2{
+        font-size:28px;
+        line-height:1.4;
+        margin-bottom:20px;
+    }
+
+    .mobile-overlay a{
+        color:#fff;
+        text-decoration:none;
+        font-weight:600;
+        font-size:18px;
+    }
+} 
