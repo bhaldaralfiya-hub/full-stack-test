@@ -1,47 +1,44 @@
-# Full Stack Test
-WPoets Full Stack Developer Test
+# Answers to Technical Questions
 
-Hi Full-stacker!
+---
 
-Great that you're interested in this exercise! Thanks a lot for making it. The exercise consits of an assignment. It is related to the WPoets working ways. Good luck and we are looking forward to hearing from you soon!
+<h2>1. How long did you spend on the coding test?</h2>
 
-To complete these assignment you need to fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
+I spent approximately **4 days** on this assignment, dedicating around **4–5 hours each day**, completing it step by step:
 
-<h2>Task</h2>
 <ul>
-  <li>Create a CRUD functionality using PHP, MySQL.</li>
-	<li>Fetch the data to display the section that matches the given design using HTML5, CSS3, jQuery, Bootstrap.</li>
+  <li>Database design and setup</li>
+  <li>CRUD functionality using PHP & MySQL</li>
+  <li>Frontend implementation with HTML5, CSS3, jQuery & Bootstrap</li>
+  <li>Responsive design for web and mobile views</li>
+  <li>Testing and bug fixes</li>
 </ul>
 
-<h2>Design</h2>
+**What I would add with more time:**
 
-<h5>In Web view</h5>
 <ul>
-  <li>Column 1 is tabs. Each tab is a seperate slider.</li>
-	<li>Clicking on the tab will change the slider in Column 2.</li>
-	<li>
-		Column 2 is a slider connected with column 3.
-		<ul>
-			<li>Which means when the slide in column 2 changes, the image in column 3 will change with it.</li>
-			<li>Controls are attached to column 2 only.</li>
-		</ul>
-	</li>
-	<li>Image in column 3 is a 1:1 image.</li>
+  <li>Improve the UI styling to match the design more closely</li>
+  <li>Add proper form validation</li>
+  <li>Add image upload functionality instead of manual image filenames</li>
+ <li>Improve code structure</li>
 </ul>
 
-<h5>In Mobile view</h5>
-<ul>
-  <li>Column 1 changes to accordion.</li>
-  <li>Column 2 is a slider with images from column 3 as background images.</li>
-</ul>
+---
 
-<strong>Note: Please refer to the files directory for design files, relevant icons/images and styleguide.</strong>
+<h2>2. How would you track down a performance issue in production?</h2>
 
-<h2>Technical questions</h2>
+I would first identify where the slowdown is happening, check logs and database queries, fix the issue, and then test to make sure performance improves.
 
-Please answer the following questions in a markdown file called <code>Answers to technical questions.md</code>
-<ul>
-  <li>How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.</li>
-	<li>How would you track down a performance issue in production? Have you ever had to do this?</li>
-	<li>Please describe yourself using JSON.</li>
-</ul>
+In previous projects, I have optimized slow database queries and reduced unnecessary page requests to improve overall performance.
+
+---
+
+<h2>3. Please describe yourself using JSON</h2>
+
+{
+  "name": "Alfiya Bhaldar",
+  "role": "Full Stack Developer",
+  "skills": ["PHP", "MySQL", "JavaScript", "WordPress","shopify","wix","Framer","Bootstrap", "HTML", "CSS"],
+  "strengths": ["Problem Solving", "Quick Learner", "Quick to Adapt to New Challenges"],
+  "attitude": "Always eager to learn new technologies and frameworks as the project demands"
+}
