@@ -38,11 +38,13 @@ In previous projects, I have optimized slow database queries and reduced unneces
 ```json
 {
   "name": "Alfiya Bhaldar",
-  "role": "Full Stack Developer",
+  "role": "Web Developer",
   "skills": [
     "PHP",
     "MySQL",
     "WordPress",
+    "shopify",
+     "webflow"
     "JavaScript",
     "jQuery",
     "Bootstrap",
