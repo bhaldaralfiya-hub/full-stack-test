@@ -35,10 +35,25 @@ In previous projects, I have optimized slow database queries and reduced unneces
 
 <h2>3. Please describe yourself using JSON</h2>
 
+```json
 {
   "name": "Alfiya Bhaldar",
   "role": "Full Stack Developer",
-  "skills": ["PHP", "MySQL", "JavaScript", "WordPress","shopify","wix","Framer","Bootstrap", "HTML", "CSS"],
-  "strengths": ["Problem Solving", "Quick Learner", "Quick to Adapt to New Challenges"],
+  "skills": [
+    "PHP",
+    "MySQL",
+    "WordPress",
+    "JavaScript",
+    "jQuery",
+    "Bootstrap",
+    "HTML",
+    "CSS"
+  ],
+  "strengths": [
+    "Problem Solving",
+    "Quick Learner",
+    "Adaptable to New Technologies""
+  ],
   "attitude": "Always eager to learn new technologies and frameworks as the project demands"
 }
+```
